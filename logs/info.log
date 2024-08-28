@@ -1,0 +1,10 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN] 2024/08/28 - 19:55:41 | 404 |         561ns |       127.0.0.1 | GET      "/"
+[GIN] 2024/08/28 - 19:55:50 | 201 |   12.162291ms |       127.0.0.1 | POST     "/users"
+[GIN] 2024/08/28 - 19:55:54 | 404 |         721ns |       127.0.0.1 | GET      "/"
+[GIN] 2024/08/28 - 19:56:27 | 200 |    3.870304ms |       127.0.0.1 | GET      "/users"
